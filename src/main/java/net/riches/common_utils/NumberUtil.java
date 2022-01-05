@@ -6,7 +6,7 @@ import net.riches.common_utils.distance.MeasuringUnit;
 public class NumberUtil {
 
     public static void main(String[] args) {
-        System.out.println(DistanceUtil.convertMeasuringUnit(MeasuringUnit.YARDS, MeasuringUnit.KILOMETERS, 12891293));
+        System.out.println(DistanceUtil.convertMeasuringUnit(MeasuringUnit.FEET, MeasuringUnit.METERS, 12));
     }
 
     public static String formatInt(int num) {
