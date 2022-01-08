@@ -6,7 +6,7 @@ import net.riches.common_utils.distance.MeasuringUnit;
 public class NumberUtil {
 
     public static void main(String[] args) {
-        System.out.println(DistanceUtil.convertMeasuringUnit(MeasuringUnit.FEET, MeasuringUnit.METERS, 12));
+        System.out.println(DistanceUtil.distanceBetween(21, 30, 3, 902, -833, 200));
     }
 
     public static String formatInt(int num) {
