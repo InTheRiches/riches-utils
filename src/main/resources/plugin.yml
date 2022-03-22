@@ -1,0 +1,5 @@
+name: CommonUtils
+version: '${version}'
+main: net.riches.common_util.CommonUtil
+api-version: 1.18
+authors: [ riches_exe ]
