@@ -1,5 +1,7 @@
 package net.riches.common_utils.internal
 
+import net.riches.common_utils.CommonUtils
+
 class Pair<F, S>(first: F, second: S) {
     private var f: F? = first
     private var s: S? = second

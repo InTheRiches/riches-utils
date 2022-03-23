@@ -54,4 +54,16 @@ enum class MeasuringUnit {
             }
         }
     }
+
+    fun convertToMeters(amount: Double): Double {
+        return when (this) {
+            FEET -> amount / 3.2808399
+            MILES -> amount * 1609.344
+            YARDS -> amount * 0.9144
+            KILOMETERS -> amount * 1000
+            else -> {
+                amount
+            }
+        }
+    }
 }
