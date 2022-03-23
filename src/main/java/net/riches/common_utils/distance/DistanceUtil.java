@@ -1,8 +1,7 @@
 package net.riches.common_utils.distance;
 
 public class DistanceUtil {
-    public static double convertMeasuringUnit(MeasuringUnit from, MeasuringUnit to, double amount)
-    {
+    public static double convertMeasuringUnit(MeasuringUnit from, MeasuringUnit to, double amount) {
         switch (to) {
             case KILOMETERS:
                 switch (from) {
