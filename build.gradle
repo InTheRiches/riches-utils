@@ -1,9 +1,11 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.6.20-RC2'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
+apply plugin: "java"
+apply plugin: "maven-publish"
 
-group 'org.example'
+group 'net.projektcontingency'
 version 'A.01'
 
 repositories {
@@ -16,23 +18,33 @@ repositories {
         name = 'sonatype'
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
+    maven { url 'https://redempt.dev' }
 }
 
 dependencies {
+    implementation 'org.mongodb:mongodb-driver-sync:4.6.0'
+
     compileOnly 'org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    compileOnly 'com.github.Redempt:RedLib:master'
 }
 
 test {
     useJUnitPlatform()
 }
-compileKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
 }
-compileTestKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+
+            artifact sourceJar {
+                classifier "sources"
+            }
+        }
     }
 }

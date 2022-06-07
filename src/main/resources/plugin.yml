@@ -1,5 +1,5 @@
-name: CommonUtils
+name: Titanium
 version: '${version}'
-main: net.riches.common_util.CommonUtil
-api-version: 1.18
+main: net.projektcontingency.titanium.Titanium
+api-version: 1.17
 authors: [ riches_exe ]
