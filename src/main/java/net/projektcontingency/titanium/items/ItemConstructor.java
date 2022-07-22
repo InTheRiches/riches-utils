@@ -1,7 +1,9 @@
 package net.projektcontingency.titanium.items;
 
+import net.projektcontingency.titanium.internal.Pair;
 import net.projektcontingency.titanium.internal.Translations;
 import net.projektcontingency.titanium.internal.StringAlignUtils;
+import net.projektcontingency.titanium.internal.Unicode;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -15,6 +17,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 
 public class ItemConstructor extends ItemStack {
+    private ChatColor titleColor = ChatColor.WHITE;
+    private String title = "";
 
     public ItemConstructor(Material material, int amount) {
         super(material, amount);
@@ -48,8 +52,14 @@ public class ItemConstructor extends ItemStack {
 
     public ItemConstructor setTitle(ChatColor color, String title) {
         this.setName(color + StringAlignUtils.alignCenter(32, title));
+        this.title = StringAlignUtils.alignCenter(32, title);
+        this.titleColor = color;
 
         return this;
+    }
+
+    public Pair<ChatColor, String> getTitle() {
+        return new Pair<>(this.titleColor, this.title);
     }
 
     /**
@@ -65,9 +75,9 @@ public class ItemConstructor extends ItemStack {
 
     public ItemConstructor addInfo(String title, String... info) {
         this.addLore("");
-        this.addLore(ChatColor.BLUE + "⃓| " + ChatColor.WHITE + title);
+        this.addLore(Unicode.INFO_MARKER.getText() + ChatColor.AQUA + "  " + title);
         for (String str : info) {
-            this.addLore(ChatColor.YELLOW + "· " + str);
+            this.addLore(ChatColor.YELLOW + Unicode.POINT.getText() + " " + str);
         }
         return this;
     }

@@ -8,6 +8,9 @@ public enum Unicode {
     LEVEL(ChatColor.WHITE + "\uE013"),
     SAND_DOLLARS(ChatColor.WHITE + "\uDB86\uDDFA"),
 
+    CUSTOM_MENU_SPACE(ChatColor.WHITE + "\uF809"),
+    ADD_FRIEND_SPACE(ChatColor.WHITE + "\uF810"),
+
     SMILE(ChatColor.WHITE + "\uE015"),
     SLIGHT_SMILE(ChatColor.WHITE + "\uE016"),
     NEUTRAL(ChatColor.WHITE + "\uE017"),
@@ -17,7 +20,35 @@ public enum Unicode {
     COLD(ChatColor.WHITE + "\uE021"),
     DEVIL(ChatColor.WHITE + "\uE022"),
     ANGEL(ChatColor.WHITE + "\uE023"),
-    IN_LOVE(ChatColor.WHITE + "\uE024");
+    IN_LOVE(ChatColor.WHITE + "\uE024"),
+
+    ADD_FRIEND_MENU(ChatColor.WHITE + "\uE025"),
+    PROFILE_MENU(ChatColor.WHITE + "\uE027"),
+
+    INFO_MARKER(ChatColor.WHITE + "\uE028"),
+    POINT(ChatColor.WHITE + "\uE029"),
+
+    COIN_ONE(ChatColor.WHITE + "\uE030"),
+    COIN_TWO(ChatColor.WHITE + "\uE031"),
+    COIN_THREE(ChatColor.WHITE + "\uE032"),
+    COIN_FOUR(ChatColor.WHITE + "\uE033"),
+    COIN_FIVE(ChatColor.WHITE + "\uE034"),
+    COIN_SIX(ChatColor.WHITE + "\uE035"),
+    COIN_SEVEN(ChatColor.WHITE + "\uE036"),
+    COIN_EIGHT(ChatColor.WHITE + "\uE037"),
+    COIN_NINE(ChatColor.WHITE + "\uE038"),
+    COIN_START(ChatColor.WHITE + "\uE039"),
+    COIN_END(ChatColor.WHITE + "\uE040"),
+    COIN_ZERO(ChatColor.WHITE + "\uE041"),
+    CART_MENU(ChatColor.WHITE + "\uE042"),
+
+    CHECKOUT_MENU(ChatColor.WHITE + "\uE043"),
+    CHAT_FILTER_SETTINGS_MENU_N(ChatColor.WHITE + "\uE044"),
+    CHAT_FILTER_SETTINGS_MENU_L(ChatColor.WHITE + "\uE045"),
+    CHAT_FILTER_SETTINGS_MENU_M(ChatColor.WHITE + "\uE046"),
+    CHAT_FILTER_SETTINGS_MENU_S(ChatColor.WHITE + "\uE047"),
+    CHAT_SETTINGS(ChatColor.WHITE + "\uE048"),
+    SETTINGS(ChatColor.WHITE + "\uE049");
 
     private final String text;
 
