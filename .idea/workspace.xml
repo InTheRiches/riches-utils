@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/HelpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/HelpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Translations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Translations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/LeatherArmorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/LeatherArmorConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/SkullConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/SkullConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/gui/InventoryGUI.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/gui/ItemButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemConstructor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemTrait.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemUtilities.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONMap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONParser.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONStorage.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23OaBrCcqC5cQtKNmSAt7WLQrwT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/riches-utils/src/main/java/net/projektcontingency/titanium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Unity\Projects\riches-utils\src\main\java\net\projektcontingency\titanium" />
+      <recent name="D:\Unity\Projects\riches-utils\src\main\java\net\projektcontingency\titanium\internal" />
+      <recent name="D:\Unity\Projects\riches-utils\src\main\java\net\riches\titanium" />
+      <recent name="D:\Unity\Projects\riches-utils\src\main\java\net\riches\titanium\internal" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.projektcontingency.titanium.internal" />
+      <recent name="net.riches.titanium.internal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.riches-utils [publishToMavenLocal]">
+    <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="riches-utils [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.build" />
+      <item itemvalue="Gradle.riches-utils [publishToMavenLocal]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="" />
+      <created>1641607454350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641607454350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
