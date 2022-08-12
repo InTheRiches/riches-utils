@@ -3,52 +3,52 @@ package net.projektcontingency.titanium.internal;
 import org.bukkit.ChatColor;
 
 public enum Unicode {
-    DIVIDER(ChatColor.WHITE + "\uE050"),
-    CONFIRM_MAIL(ChatColor.WHITE + "\uE100"),
-    LEVEL(ChatColor.WHITE + "\uE013"),
-    SAND_DOLLARS(ChatColor.WHITE + "\uDB86\uDDFA"),
+    DIVIDER( "\uE050"),
+    CONFIRM_MAIL( "\uE100"),
+    LEVEL( "\uE013"),
+    SAND_DOLLARS( "\uDB86\uDDFA"),
 
-    CUSTOM_MENU_SPACE(ChatColor.WHITE + "\uF809"),
-    ADD_FRIEND_SPACE(ChatColor.WHITE + "\uF810"),
+    CUSTOM_MENU_SPACE( "\uF809"),
+    ADD_FRIEND_SPACE( "\uF810"),
 
-    SMILE(ChatColor.WHITE + "\uE015"),
-    SLIGHT_SMILE(ChatColor.WHITE + "\uE016"),
-    NEUTRAL(ChatColor.WHITE + "\uE017"),
-    SAD(ChatColor.WHITE + "\uE018"),
-    CRY(ChatColor.WHITE + "\uE019"),
-    MAD(ChatColor.WHITE + "\uE020"),
-    COLD(ChatColor.WHITE + "\uE021"),
-    DEVIL(ChatColor.WHITE + "\uE022"),
-    ANGEL(ChatColor.WHITE + "\uE023"),
-    IN_LOVE(ChatColor.WHITE + "\uE024"),
+    SMILE( "\uE015"),
+    SLIGHT_SMILE( "\uE016"),
+    NEUTRAL( "\uE017"),
+    SAD( "\uE018"),
+    CRY( "\uE019"),
+    MAD( "\uE020"),
+    COLD( "\uE021"),
+    DEVIL( "\uE022"),
+    ANGEL( "\uE023"),
+    IN_LOVE( "\uE024"),
 
-    ADD_FRIEND_MENU(ChatColor.WHITE + "\uE025"),
-    PROFILE_MENU(ChatColor.WHITE + "\uE027"),
+    ADD_FRIEND_MENU( "\uE025"),
+    PROFILE_MENU( "\uE027"),
 
-    INFO_MARKER(ChatColor.WHITE + "\uE028"),
-    POINT(ChatColor.WHITE + "\uE029"),
+    INFO_MARKER( "\uE028"),
+    POINT( "\uE029"),
 
-    COIN_ONE(ChatColor.WHITE + "\uE030"),
-    COIN_TWO(ChatColor.WHITE + "\uE031"),
-    COIN_THREE(ChatColor.WHITE + "\uE032"),
-    COIN_FOUR(ChatColor.WHITE + "\uE033"),
-    COIN_FIVE(ChatColor.WHITE + "\uE034"),
-    COIN_SIX(ChatColor.WHITE + "\uE035"),
-    COIN_SEVEN(ChatColor.WHITE + "\uE036"),
-    COIN_EIGHT(ChatColor.WHITE + "\uE037"),
-    COIN_NINE(ChatColor.WHITE + "\uE038"),
-    COIN_START(ChatColor.WHITE + "\uE039"),
-    COIN_END(ChatColor.WHITE + "\uE040"),
-    COIN_ZERO(ChatColor.WHITE + "\uE041"),
-    CART_MENU(ChatColor.WHITE + "\uE042"),
+    COIN_ONE( "\uE030"),
+    COIN_TWO( "\uE031"),
+    COIN_THREE( "\uE032"),
+    COIN_FOUR( "\uE033"),
+    COIN_FIVE( "\uE034"),
+    COIN_SIX( "\uE035"),
+    COIN_SEVEN( "\uE036"),
+    COIN_EIGHT( "\uE037"),
+    COIN_NINE( "\uE038"),
+    COIN_START( "\uE039"),
+    COIN_END( "\uE040"),
+    COIN_ZERO( "\uE041"),
+    CART_MENU( "\uE042"),
 
-    CHECKOUT_MENU(ChatColor.WHITE + "\uE043"),
-    CHAT_FILTER_SETTINGS_MENU_N(ChatColor.WHITE + "\uE044"),
-    CHAT_FILTER_SETTINGS_MENU_L(ChatColor.WHITE + "\uE045"),
-    CHAT_FILTER_SETTINGS_MENU_M(ChatColor.WHITE + "\uE046"),
-    CHAT_FILTER_SETTINGS_MENU_S(ChatColor.WHITE + "\uE047"),
-    CHAT_SETTINGS(ChatColor.WHITE + "\uE048"),
-    SETTINGS(ChatColor.WHITE + "\uE049");
+    CHECKOUT_MENU( "\uE043"),
+    CHAT_FILTER_SETTINGS_MENU_N( "\uE044"),
+    CHAT_FILTER_SETTINGS_MENU_L( "\uE045"),
+    CHAT_FILTER_SETTINGS_MENU_M( "\uE046"),
+    CHAT_FILTER_SETTINGS_MENU_S( "\uE047"),
+    CHAT_SETTINGS( "\uE048"),
+    SETTINGS( "\uE049");
 
     private final String text;
 
@@ -100,6 +100,6 @@ public enum Unicode {
     }
 
     public String getText() {
-        return this.text;
+        return ChatColor.WHITE + this.text;
     }
 }

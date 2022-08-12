@@ -17,7 +17,18 @@ public class Pair<F, S> {
         return second;
     }
 
+    public F getLeft() {
+        return first;
+    }
+    public S getRight() {
+        return second;
+    }
+
     public static <T,R> Pair<T,R> pair(T first, R second) {
+        return new Pair<>(first, second);
+    }
+
+    public static <T,R> Pair<T,R> of(T first, R second) {
         return new Pair<>(first, second);
     }
 }

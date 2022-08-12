@@ -44,7 +44,7 @@ public class CommandHandler implements Listener {
         Player p = e.getPlayer();
 
         for (StaffCommand staffCommand : staffCommands) {
-            if (e.getPlayer().hasPermission(staffCommand.getPermission())) continue;
+            if (p.hasPermission(staffCommand.getPermission())) continue;
             blockedCommands.add("lobbysystem:" + staffCommand.getCommandName());
         }
 //        for (PlayerCommand playerCommand : playerCommands) {

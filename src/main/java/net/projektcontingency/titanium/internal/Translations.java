@@ -84,6 +84,7 @@ public enum Translations {
                 repeating.replace(c, (repeating.get(c)+1));
                 continue;
             }
+
             repeating.put(c, 1);
         }
         List<Map.Entry<Character, Integer> > list =
@@ -92,9 +93,9 @@ public enum Translations {
         list.sort(Map.Entry.comparingByValue());
 
         HashMap<Character, Integer> temp = new LinkedHashMap<>();
-        for (Map.Entry<Character, Integer> aa : list) {
+        for (Map.Entry<Character, Integer> aa : list)
             temp.put(aa.getKey(), aa.getValue());
-        }
+
         System.out.println(temp.keySet().toArray()[0] + " " + temp.values().toArray()[0]);
     }
 }
