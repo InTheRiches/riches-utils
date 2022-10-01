@@ -22,6 +22,8 @@ public class InventoryMenu extends InventoryGUI {
 
     public InventoryMenu(int size, String name) {
         super(size, name);
+
+        this.setDestroyOnClose(false);
     }
 
     @EventHandler
