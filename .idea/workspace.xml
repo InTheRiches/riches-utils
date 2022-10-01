@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/HelpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/HelpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Translations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Translations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/LeatherArmorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/LeatherArmorConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/SkullConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/SkullConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/gui/InventoryGUI.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/gui/ItemButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemConstructor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemTrait.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/items/ItemUtilities.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONList.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONMap.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONParser.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/riches/common_utils/json/JSONStorage.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Titanium.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,31 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Titanium" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Titanium" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,8 +70,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Project.color&quot;: &quot;511a43&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/riches-utils/src/main/java/net/projektcontingency/titanium&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/riches-utils&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -128,8 +150,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641607454350</updated>
+      <workItem from="1663706938135" duration="576000" />
+      <workItem from="1664068892304" duration="49000" />
+      <workItem from="1664572471057" duration="760000" />
+      <workItem from="1664588143215" duration="62000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

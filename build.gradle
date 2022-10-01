@@ -2,10 +2,11 @@ plugins {
     id 'java'
     id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
-apply plugin: "java"
 apply plugin: "maven-publish"
+apply plugin: "java"
 
-group 'net.projektcontingency'
+
+group 'com.github.InTheRiches'
 version 'A.01'
 
 repositories {
@@ -22,8 +23,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.mongodb:mongodb-driver-sync:4.6.0'
-    implementation 'org.jetbrains:annotations:20.1.0'
+    implementation 'org.mongodb:mongodb-driver-sync:4.7.1'
+    implementation 'org.jetbrains:annotations:23.0.0'
 
     compileOnly 'org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT'
 
