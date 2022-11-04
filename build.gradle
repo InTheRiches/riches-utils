@@ -24,10 +24,10 @@ repositories {
 
 dependencies {
     implementation 'org.mongodb:mongodb-driver-sync:4.7.1'
+    implementation 'org.mongodb:bson:4.7.2'
     implementation 'org.jetbrains:annotations:23.0.0'
 
     compileOnly 'org.spigotmc:spigot-api:1.18-R0.1-SNAPSHOT'
-
     compileOnly 'com.github.Redempt:RedLib:master'
 }
 

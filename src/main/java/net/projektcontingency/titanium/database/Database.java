@@ -36,6 +36,41 @@ public class Database {
         return col.find(filter).first().get(key);
     }
 
+    public String getFirstDocument(Pair<String, Object> f, String collection) {
+        MongoDatabase database = mongoClient.getDatabase("player-data");
+        MongoCollection<Document> col = database.getCollection(collection);
+
+        Document filter = new Document(f.getFirst(), f.getSecond());
+        Document result = col.find(filter).first();
+        if (result == null) {
+            return new Document(f.getFirst(), f.getSecond()).toJson();
+        }
+        return result.toJson();
+    }
+
+    public List<String> getDocuments(Pair<String, Object> f, String collection) {
+        MongoDatabase database = mongoClient.getDatabase("player-data");
+        MongoCollection<Document> col = database.getCollection(collection);
+
+        Document filter = new Document(f.getFirst(), f.getSecond());
+        List<Document> documents = col.find(filter).into(new ArrayList<>());
+        List<String> documentJson = new ArrayList<>();
+        documents.forEach(document -> documentJson.add(document.toJson()));
+
+        return documentJson;
+    }
+
+    public List<String> getDocuments(String collection) {
+        MongoDatabase database = mongoClient.getDatabase("player-data");
+        MongoCollection<Document> col = database.getCollection(collection);
+
+        List<Document> documents = col.find().into(new ArrayList<>());
+        List<String> documentJson = new ArrayList<>();
+        documents.forEach(document -> documentJson.add(document.toJson()));
+
+        return documentJson;
+    }
+
     public void setFirstDocumentValue(Pair<String, Object> f, String collection, String key, Object value) {
         MongoDatabase database = mongoClient.getDatabase("player-data");
         MongoCollection<Document> col = database.getCollection(collection);
@@ -44,5 +79,17 @@ public class Database {
         Document doc = col.find(filter).first();
         doc.append(key, value);
         col.findOneAndReplace(filter, doc);
+    }
+
+    public void replaceDocument(Pair<String, Object> f, String collection, String json) {
+        MongoDatabase database = mongoClient.getDatabase("player-data");
+        MongoCollection<Document> col = database.getCollection(collection);
+
+        Document filter = new Document(f.getFirst(), f.getSecond());
+        if (col.find(filter).first() == null) {
+            col.insertOne(Document.parse(json));
+            return;
+        }
+        col.findOneAndReplace(filter, Document.parse(json));
     }
 }

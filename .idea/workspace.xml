@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/database/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/riches-utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/Achievements&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -87,7 +89,7 @@
       <recent name="net.riches.titanium.internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.riches-utils [publishToMavenLocal]">
+  <component name="RunManager" selected="Gradle.build">
     <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,6 +102,7 @@
         <option name="taskNames">
           <list>
             <option value="shadowJar" />
+            <option value="publishToMavenLocal" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,6 +150,11 @@
       <workItem from="1664068892304" duration="49000" />
       <workItem from="1664572471057" duration="760000" />
       <workItem from="1664588143215" duration="1812000" />
+      <workItem from="1664647977665" duration="595000" />
+      <workItem from="1667244973716" duration="2031000" />
+      <workItem from="1667330253266" duration="598000" />
+      <workItem from="1667505598508" duration="597000" />
+      <workItem from="1667513496617" duration="2734000" />
     </task>
     <servers />
   </component>
