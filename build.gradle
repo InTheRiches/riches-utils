@@ -7,7 +7,7 @@ apply plugin: "java"
 
 
 group 'com.github.InTheRiches'
-version 'A.01'
+version 'A.02'
 
 repositories {
     mavenCentral()

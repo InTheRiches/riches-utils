@@ -8,7 +8,7 @@ public enum Unicode {
     LEVEL( "\uE013"),
     SAND_DOLLARS( "\uDB86\uDDFA"),
 
-    CUSTOM_MENU_SPACE( "\uF809"),
+    CUSTOM_MENU_SPACE( "\uF814"),
     ADD_FRIEND_SPACE( "\uF810"),
 
     SMILE( "\uE015"),
@@ -48,7 +48,13 @@ public enum Unicode {
     CHAT_FILTER_SETTINGS_MENU_M( "\uE046"),
     CHAT_FILTER_SETTINGS_MENU_S( "\uE047"),
     CHAT_SETTINGS( "\uE048"),
-    SETTINGS( "\uE049");
+    SETTINGS( "\uE049"),
+
+    PROGRESS_EMPTY("\uE050"),
+    PROGRESS_FULL("\uE051"),
+    PROGRESS_END_FULL("\uE052"),
+    PROGRESS_END("\uE053"),
+    PROGRESS_START("\uE054");
 
     private final String text;
 

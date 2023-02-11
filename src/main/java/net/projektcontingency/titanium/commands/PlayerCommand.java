@@ -15,13 +15,15 @@ import java.util.Map;
 
 public abstract class PlayerCommand implements CommandExecutor, TabCompleter {
 
-    public abstract String getCommandName();
+    protected final String commandName;
     protected Map<String, SubCommand> subCommands;
     protected Map<String, StaffSubCommand> staffSubCommands;
 
-    public PlayerCommand() {
+    public PlayerCommand(String name) {
         this.subCommands = new HashMap<>();
         this.staffSubCommands = new HashMap<>();
+
+        this.commandName = name;
     }
 
     @Nullable
@@ -47,5 +49,9 @@ public abstract class PlayerCommand implements CommandExecutor, TabCompleter {
 //            }
         }
         return null;
+    }
+
+    public String getCommandName() {
+        return this.commandName;
     }
 }

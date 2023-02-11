@@ -5,19 +5,17 @@ import java.util.Map;
 import java.util.UUID;
 
 public class CooldownManager {
-    private final Map<UUID, Integer> cooldowns = new HashMap<>();
+    private final Map<UUID, Long> cooldowns = new HashMap<>();
 
-    public static final int DEFAULT_COOLDOWN = 3;
-
-    public void setCooldown(UUID player, int time){
-        if(time < 1) {
-            cooldowns.remove(player);
+    public void setCooldown(UUID player, long time){
+        if (cooldowns.containsKey(player)) {
+            cooldowns.replace(player, System.currentTimeMillis() + time);
         } else {
-            cooldowns.put(player, time);
+            cooldowns.put(player, System.currentTimeMillis() + time);
         }
     }
 
-    public int getCooldown(UUID player){
-        return cooldowns.getOrDefault(player, 0);
+    public long getCooldown(UUID player){
+        return cooldowns.getOrDefault(player, 0L);
     }
 }

@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/ChatColorString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CooldownManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CooldownManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/PlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/PlayerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffSubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffSubCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/SubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/SubCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +79,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Unity/Projects/Achievements&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -89,7 +101,7 @@
       <recent name="net.riches.titanium.internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.build">
+  <component name="RunManager" selected="Gradle.riches-utils [publishToMavenLocal]">
     <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -154,7 +166,19 @@
       <workItem from="1667244973716" duration="2031000" />
       <workItem from="1667330253266" duration="598000" />
       <workItem from="1667505598508" duration="597000" />
-      <workItem from="1667513496617" duration="2734000" />
+      <workItem from="1667513496617" duration="4269000" />
+      <workItem from="1667663376291" duration="1709000" />
+      <workItem from="1667736789617" duration="2552000" />
+      <workItem from="1667764583393" duration="599000" />
+      <workItem from="1667852136380" duration="599000" />
+      <workItem from="1668120235497" duration="595000" />
+      <workItem from="1668372687878" duration="599000" />
+      <workItem from="1668640837146" duration="1204000" />
+      <workItem from="1668776086232" duration="1213000" />
+      <workItem from="1668983640099" duration="366000" />
+      <workItem from="1669150765893" duration="599000" />
+      <workItem from="1669210735449" duration="1519000" />
+      <workItem from="1673753040255" duration="407000" />
     </task>
     <servers />
   </component>
