@@ -16,6 +16,8 @@ import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 
+import java.util.List;
+
 public class ItemConstructor extends ItemStack {
     private ChatColor titleColor = ChatColor.WHITE;
     private String title = "";
@@ -96,6 +98,11 @@ public class ItemConstructor extends ItemStack {
      * @return The ItemConstructor with lore added
      */
     public ItemConstructor setLore(String... lore) {
+        ItemUtilities.setLore(this, lore);
+        return this;
+    }
+
+    public ItemConstructor setLore(List<String> lore) {
         ItemUtilities.setLore(this, lore);
         return this;
     }

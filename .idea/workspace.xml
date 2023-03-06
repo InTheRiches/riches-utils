@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f66ab4c-9be9-40b8-ae02-4eb10c028458" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/ChatColorString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CooldownManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/CooldownManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/PlayerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/PlayerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffSubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/StaffSubCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/SubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/commands/SubCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/internal/Unicode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/ItemConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/projektcontingency/titanium/items/ItemConstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <recent name="net.riches.titanium.internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.riches-utils [publishToMavenLocal]">
+  <component name="RunManager" selected="Gradle.build">
     <configuration name="build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,6 +171,10 @@
       <workItem from="1669150765893" duration="599000" />
       <workItem from="1669210735449" duration="1519000" />
       <workItem from="1673753040255" duration="407000" />
+      <workItem from="1676155750431" duration="1158000" />
+      <workItem from="1677106196415" duration="651000" />
+      <workItem from="1677126011369" duration="599000" />
+      <workItem from="1677201393037" duration="47000" />
     </task>
     <servers />
   </component>
