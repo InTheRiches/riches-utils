@@ -17,9 +17,13 @@ import java.util.List;
 import java.util.logging.Level;
 
 public class Database {
-    public final MongoClient mongoClient;
+    public MongoClient mongoClient;
 
     public Database() {
+
+    }
+
+    public void connect() {
         ConnectionString connectionString = new ConnectionString("mongodb://localhost:27017");
         MongoClientSettings settings = MongoClientSettings.builder()
                 .applyConnectionString(connectionString)
